@@ -12,7 +12,7 @@ body {
 header {
     width: 100%;
     height: 30px;
-    background: #11385D;
+    background: #f0b277;
     background-size: cover;
     background-attachment: fixed;
     position: fixed;
@@ -42,7 +42,6 @@ header ul li {
 
 .content {
     padding: 50px;
-    /* align-items: center; */
     text-align: center;
 }
 
@@ -54,7 +53,6 @@ header ul li {
 
 h2 {
     color: #11385D;
-    /* align-items: center; */
     text-align: center;
     padding: 20px;
 }
@@ -62,7 +60,6 @@ h2 {
 .container {
     width: 100%;
     max-width: 1200px;
-    /* height: 350px; */
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -72,7 +69,6 @@ h2 {
 .container .card {
     width: 30%;
     background: rgb(250, 250, 250);
-    /* height: 300px; */
     border-radius: 8px;
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
     overflow: hidden;
@@ -100,5 +96,5 @@ body img {
     display: block;
     margin: auto;
     width: auto;
-    background-color: yellowgreen;
+    background-color:crimson;
 }

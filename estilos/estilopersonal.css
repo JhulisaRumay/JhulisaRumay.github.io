@@ -10,22 +10,22 @@ html{
     position: relative;
 }
 body{
-    background: burlywood;
+    background: bisque;
     margin: 0 auto;
     width: 100%;
 }
 header{
     width: 100%;
     height: 30px;
-    background: #5c0655;
+    background: #f0b277;
     background-size: cover;
     background-attachment: fixed;
     position: fixed;
 }
 .nav{
     font-family:'Tahoma', sans-serif;
-    background-color: #cc8bc7;
-    padding: 15px;
+    background-color: #f0b277;
+    padding: 20px;
     margin-bottom:auto;
 }
 .nav_logo{
@@ -83,7 +83,7 @@ header ul li{
 }
 header a:hover{
     text-decoration: underline;
-    text-decoration-color: greenyellow;
+    text-decoration-color:crimson;
 }
 section h2{
     display: flex;
