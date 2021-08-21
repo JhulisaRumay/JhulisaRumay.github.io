@@ -1,0 +1,97 @@
+*{
+    
+    margin:0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+html{
+    min-height: 100%;
+    position: relative;
+}
+body{
+    background: burlywood;
+    margin: 0 auto;
+    width: 100%;
+}
+header{
+    width: 100%;
+    height: 30px;
+    background: #5c0655;
+    background-size: cover;
+    background-attachment: fixed;
+    position: fixed;
+}
+.nav{
+    font-family:'Tahoma', sans-serif;
+    background-color: #cc8bc7;
+    padding: 15px;
+    margin-bottom:auto;
+}
+.nav_logo{
+    width: 3em;
+    vertical-align: middle;
+    display: inline-block;
+}
+.nav_tittle{
+    background-color: rgb(245, 245, 245);
+    font-size: 2em;
+    display: inline-block;
+    vertical-align:bottom;
+}
+.nav_ul{
+    list-style:none;
+    display: inline-block;
+    margin-left: 70vw;
+    text-align: right;
+}
+.nav_li{
+    display: inline-block;
+    padding: 0 5px;
+    text-align: right;
+
+}
+.nav_li a{
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 2em;
+    text-align: right;
+}
+.nav_li a:hover{
+    color: #ff8000;
+}
+.nav_tittle:hover{
+    color:#81f781
+}
+body h1{
+    color: black;
+    text-decoration:none;
+    font-size: 100%;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+}
+header a{
+    color:white;
+    font-weight: 100%;
+    text-decoration: none;
+    margin-right: 10px;
+}
+header ul li{
+    list-style: none;
+    display: inline-block;
+}
+header a:hover{
+    text-decoration: underline;
+    text-decoration-color: greenyellow;
+}
+section h2{
+    display: flex;
+    height: 50%;
+    width: 100%;
+    align-items: center;
+    justify-content:  center;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Secular One', sans-serif;
+}
