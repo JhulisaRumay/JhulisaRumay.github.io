@@ -20,7 +20,7 @@ header {
 
 nav {
     display: inline-block;
-    width: 70%;
+   padding: 20px;
     text-align: right;
 }
 
@@ -96,5 +96,4 @@ body img {
     display: block;
     margin: auto;
     width: auto;
-    background-color:crimson;
 }
