@@ -89,14 +89,6 @@ header h4{
 .nav_li a:hover{
     color: #ff8000;
 }
-
-body h1{
-    color: black;
-    text-decoration:none;
-    font-size: 100%;
-    text-align: center;
-    font-family: 'Anton', sans-serif;
-}
 header a:hover{
     text-decoration: underline;
     text-decoration-color:crimson;
@@ -111,6 +103,24 @@ section h2{
     text-align: center;
     font-family: 'Secular One', sans-serif;
 }
+p{
+    text-align: center;
+    text-justify: center;
+    margin-bottom: 1rem;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-family: 'arial', sans-serif;
+}
+
+/*body h1{
+    color: black;
+    text-decoration:none;
+    font-size: 100%;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+}
+
+
 section h3{
     display: flex;
     height: 50%;
@@ -130,7 +140,7 @@ section h4{
     flex-direction: column;
     text-align: center;
     font-family: 'Secular One', sans-serif;
-}
+}*/
 body img {
     display: block;
     margin: auto;
