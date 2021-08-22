@@ -17,16 +17,15 @@ body{
 header {
 
     width: 100%;
-    height: 30px;
-    background: #f0b277;
-    background-size: cover;
-    background-attachment: fixed;
-    position: fixed;
+    height: 400px;
+    background-size: 100% 100%;
+    background-image: url("imagenes/belen.jpg");
+    position:relative;
 }
 
 .nav{
     font-family:'Tahoma', sans-serif;
-    background-color: #f0b277;
+    background-color:#1f1f20;
     padding: 0px;
     margin-bottom:lem;
 }
