@@ -24,3 +24,11 @@ footer h5 {
     font-weight: 700;
     padding: 10px;
 }
+.container {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
