@@ -18,13 +18,41 @@ header{
     position: fixed;
 }
 
-nav {
+.nav{
     font-family:'Tahoma', sans-serif;
     background-color: #f0b277;
-    padding: 20px;
-    margin-bottom:auto;
+    padding: 0px;
+    margin-bottom:lem;
 }
 
+.nav_tittle{
+    background-color: rgb(245, 245, 245);
+    font-size: 1em;
+    display: inline-block;
+    vertical-align:middle;
+}
+.nav_ul{
+    list-style:none;
+    display: inline-block;
+    margin-left: 70vw;
+    text-align: right;
+}
+.nav_li{
+    display: inline-block;
+    padding: 0 5px;
+    text-align: right;
+
+}
+.nav_li a{
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 2em;
+    text-align: right;
+}
+.nav_li a:hover{
+    color: #ff8000;
+}
 header a {
     color: white;
     font-weight: 100;
