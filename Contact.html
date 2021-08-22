@@ -7,7 +7,8 @@
         <title>Contacto</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="estilos/contact.css">
+        <link rel="stylsheet" href="estilos/footer.css">
     </head>
     <body>
         <header>
@@ -19,37 +20,80 @@
                 </ul>
             </nav>
         </header>
-        <h1>Ponte en contacto</h1>
-        <aside>
+        <section class="content">
+            <div class="social">
+                <h2>Redes Sociales</h2>
+                    <ul>
+                        <li> 
+                            <a href="https://www.facebook.com/jhulisanoemi.rumaymunoz" target="_blank">Facebook</a>
+                                <img src="imagenes/facebook.png" title="Facebook" width="20" height="20">
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/jhulirm1304" target="_blank">Instagram</a>
+                                <img src="imagenes/instagram.png" width="20" height="20">
+                        </li>
+                        <li>
+                            <img src="imagenes/wtspp.png" width="20" height="20">
+                        <a> 982506250 </a>
+                        </li>
+                    </ul>
+            </div>
+        </section>
+        <section>
             <div>
                 <h2>E-mail</h2>
                 <img src="imagenes/gmail.png" title="Gmail" width="20" height="20">
                 <a href="mailto:jrumaym17_1@unc.edu.pe">jrumaym17_1@unc.edu.pe</a>
             </div>
-            <div>
-                <h2>Redes Sociales</h2>
-                <ul>
-                   <li> 
-                       <a href="https://www.facebook.com/jhulisanoemi.rumaymunoz" target="_blank">Facebook</a>
-                        <img src="imagenes/facebook.png" title="Facebook" width="20" height="20">
-                    </li>
-                    <li>
-                        <a href="https://www.instagram.com/jhulirm1304" target="_blank">Instagram</a>
-                        <img src="imagenes/instagram.png" width="20" height="20">
-                    </li>
-                    <li>
-                        <img src="imagenes/wtspp.png" width="20" height="20">
-                        <a> 982506250 </a>
-                    </li>
-                </ul>
-            </div>
-            <div>
-                <h3>Dirección</h3>
-                <h4>Jr. Ica N° 620 - Jesús - Cajamarca </h4>
-            </div>
+        </section>
+
+        <section class="content">
+            <h1>Contacto</h1>
+            <h2>Ponte en contacto</h2>
+                <div class="rows">
+                    <form>
+                        <div class="center">
+                            <label for="nombres">Nombres: </label>
+                            <input type="text" placeholder="Ingrese nombre" required>
+                        </div>
+                        <div class="center">
+                            <label for="apellidos">Apellidos: </label>
+                            <input type="text" placeholder="Ingrese apellidos" required>
+                        </div>
+                        <div class="center">
+                            <label for="dni">DNI: </label>
+                            <input type="text" placeholder="Ingrese DNI" required>
+                        </div>
+                        <div class="center">
+                            <label for="telefono">Telefono: </label>
+                            <input type="text" placeholder="Ingrese telefono" required>
+                        </div>
+                        <div class="center">
+                            <label for="correo">Correo: </label>
+                            <input type="text" placeholder="Ingrese su correo" required>
+                        </div>
+                        <div class="center">
+                            <label for="direccion"> Direccion: </label>
+                            <input type="text" placeholder="Ingrese su direccion">
+                        </div>
+                        <div class="center">
+                            <textarea name="comentario" placeholder="Dejanos tus comentarios"></textarea>
+                        </div>
+                        <div class="center">
+                            <button type="submit">Enviar</button>
+                        </div>
+                    </form>
+                </div>
+            </section>
         </aside>
         <footer>
-            <h4> (c) Copyright 2021-1 </h4>
+            <div class="content-foo">
+                <h5>E-mail</h5>
+                <a href="mailto:jrumaym17_1@unc.edu.pe">jrumaym17_1@unc.edu.pe</a>
+                <h3>Dirección</h3>
+                <h4>Jr. Ica N° 620 - Jesús - Cajamarca </h4>
+                <h4> (c) Copyright 2021-1 </h4>
+            </div>
         </footer>
         <script src="" async defer></script>
     </body>

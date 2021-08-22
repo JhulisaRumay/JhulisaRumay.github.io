@@ -14,7 +14,9 @@ body{
     margin: 0 auto;
     width: 100%;
 }
-header{
+
+header {
+
     width: 100%;
     height: 30px;
     background: #f0b277;
@@ -22,22 +24,19 @@ header{
     background-attachment: fixed;
     position: fixed;
 }
+
 .nav{
     font-family:'Tahoma', sans-serif;
     background-color: #f0b277;
-    padding: 20px;
-    margin-bottom:auto;
+    padding: 0px;
+    margin-bottom:lem;
 }
-.nav_logo{
-    width: 3em;
-    vertical-align: middle;
-    display: inline-block;
-}
+
 .nav_tittle{
     background-color: rgb(245, 245, 245);
     font-size: 2em;
     display: inline-block;
-    vertical-align:bottom;
+    vertical-align:middle;
 }
 .nav_ul{
     list-style:none;
@@ -95,6 +94,22 @@ section h2{
     text-align: center;
     font-family: 'Secular One', sans-serif;
 }
-img {
-    align-content: center;
+.container {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: justify;
+    margin: auto;
+}
+
+.container .card {
+    width: 30%;
+    background: rgb(250, 250, 250);
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 10px;
+    text-align: right;
+    transition: all 0.25s;
 }
