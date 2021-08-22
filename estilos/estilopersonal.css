@@ -111,4 +111,9 @@ section h4{
     text-align: center;
     font-family: 'Secular One', sans-serif;
 }
+body img {
+    display: block;
+    margin: auto;
+    width: auto;
+}
 
