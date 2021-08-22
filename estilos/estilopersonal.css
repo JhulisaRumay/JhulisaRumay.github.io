@@ -22,12 +22,44 @@ header {
     margin: auto;
     background-image: url(belen.jpg);
     background-size: 100% 100%;
-    animation: banner 10s infinite;
-    opacity: 1;
     background-attachment:local;
     position:relative;
+    opacity: 0.9;
 }
+.bienvenido{
+   
+    color:blanchedalmond;
+    font-size: 60px;
+    text-align: left;
+    font-family:  'Comic Sans MS', 'cursive';
+    text-shadow: red 0 -2px;
+}
+.soy{
+   
+    color:blanchedalmond;
+    font-size: 30px;
+    text-align: left;
+    font-family:  'Comic Sans MS', 'cursive';
+    text-shadow: coral 0 -2px;
+    text-align: center;
 
+}
+header h4{
+    color:blanchedalmond;
+    font-size: 20px;
+    text-align: left;
+    font-family:  'arial', 'sans serif';
+    text-shadow:black 0 -2px;
+    text-align: center;
+}
+.img_Jhuli{
+  
+    vertical-align: middle;
+    max-width: 200px;
+    height: 200px;
+    border-radius: 48%;
+    border: 4px solid #fff;
+   }
 .nav{
     font-family:'Tahoma', sans-serif;
     background-color:#1f1f20;
@@ -35,12 +67,6 @@ header {
     margin-bottom:lem;
 }
 
-.nav_tittle{
-    background-color: rgb(245, 245, 245);
-    font-size: 1em;
-    display: inline-block;
-    vertical-align:middle;
-}
 .nav_ul{
     list-style:none;
     display: inline-block;
@@ -70,16 +96,6 @@ body h1{
     font-size: 100%;
     text-align: center;
     font-family: 'Anton', sans-serif;
-}
-header a{
-    color:white;
-    font-weight: 100%;
-    text-decoration: none;
-    margin-right: 10px;
-}
-header ul li{
-    list-style: none;
-    display: inline-block;
 }
 header a:hover{
     text-decoration: underline;

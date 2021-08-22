@@ -17,6 +17,10 @@ header{
     background-attachment: fixed;
     position: fixed;
 }
+header a:hover{
+    text-decoration: underline;
+    text-decoration-color:crimson;
+}
 
 .nav{
     font-family:'Tahoma', sans-serif;
@@ -52,12 +56,6 @@ header{
 }
 .nav_li a:hover{
     color: #ff8000;
-}
-header a {
-    color: white;
-    font-weight: 100;
-    text-decoration: none;
-    margin-right: 20px;
 }
 
 header ul li {
