@@ -136,22 +136,6 @@ body h1 {
     /* Establecemos una transición a todas las propiedades */
 }
 
-.social ul li .icon-facebook {
-    background: #3b5998;
-}
-
-.social ul li .icon-youtube {
-    background: red;
-}
-
-.social ul li .icon-github {
-    background: black;
-}
-
-.social ul li .icon-instagram {
-    background: orangered;
-}
-
 .social ul li a:hover {
     background: rgb(61, 76, 85);
     /* Cambiamos el fondo cuando el usuario pase el mouse */
