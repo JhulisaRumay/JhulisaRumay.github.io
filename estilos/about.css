@@ -65,21 +65,6 @@ header ul li {
     display: inline-block;
 }
 
-.logo {
-    font-weight: 600;
-}
-
-.content {
-    padding: 50px;
-    text-align: center;
-}
-
-.content h1 {
-    color: #11385D;
-    font-weight: 900;
-    font-size: 30px;
-}
-
 h2 {
     color: #11385D;
     text-align: center;
