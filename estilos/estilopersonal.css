@@ -63,16 +63,9 @@ header h4{
     padding: 0px;
     margin-bottom:0px;
 }
-
-.nav_ul{
-    list-style:none;
-    display: inline-block;
-    margin-left: 70vw;
-    text-align: right;
-}
 .nav_li{
     display: inline-block;
-    padding: 0 5px;
+    padding: 0 2px;
     text-align: right;
 
 }
@@ -80,7 +73,7 @@ header h4{
     display: block;
     color: #ffffff;
     text-decoration: none;
-    font-size: 2em;
+    font-size: 1.5em;
     text-align: right;
 }
 .nav_li a:hover{
