@@ -165,30 +165,69 @@ body h1 {
     z-index: 100;
     align-items: flex-end;
 }
-.fa {
+#facebook{
+    width: 55px;
+    background:#3b5998 ;
+    padding: 10px 20px;
     color: #fff;
-    padding: .7rem;
-    display: flex;
+    text-decoration:none;
+    transition: all .5s;
+    border-radius: 1rem 0 0 0;
+}
+.facebook a:hover{
+    padding: 10px 50px;
+    background: slategrey;
+}
+#instagram{
+    width: 55px;
+    background:#f09433 ;
+    padding: 10px 20px;
+    color: #fff;
     text-decoration:none;
     transition: all .5s;
 }
-.fa-facebook {background:#3b5998 ;}
-.fa-instagram {background: #f09433;}
-.fa-github {background:#171515 ;}
-.fa-google-plus {background: #d95232 ;}
-.fa-linkedin {background: #0e76a8;}
-
-.fa:first-child{
-    border-radius: 1rem 0 0 0;
+.instagram a:hover{
+    padding: 10px 50px;
+    background: slategrey;
 }
-.fa:last-child{
+#github{
+    width: 55px;
+    background:#171515 ;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration:none;
+    transition: all .5s;
+}
+.github a:hover{
+    padding: 10px 50px;
+    background: slategrey;
+}
+#google{
+    width: 55px;
+    background:#d95232 ;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration:none;
+    transition: all .5s;
+}
+.google a:hover{
+    padding: 10px 50px;
+    background: slategrey;
+}
+#linkedin{
+    width: 55px;
+    background:#0e76a8 ;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration:none;
+    transition: all .5s;
     border-radius: 0 0 0 1rem;
 }
-.fa:hover{
-    padding-right: 3rem;
-    border-radius: 1rem 0 0 1rem;
-    box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.42);
+.linkedin a:hover{
+    padding: 10px 50px;
+    background: slategrey;
 }
+
 .bannerContact{
     width: 100%;
     height: 470px;
