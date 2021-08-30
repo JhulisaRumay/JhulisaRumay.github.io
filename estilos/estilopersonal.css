@@ -171,7 +171,6 @@ body h1 {
     padding: .7rem;
     display: flex;
     transition: all .5s;
-
 }
 .icon-facebook {background: #2e406e; ;}
 .icon-instagram {background: #f09433;}
@@ -185,7 +184,6 @@ body h1 {
 .icon:last-child{
     border-radius: 0 0 0 1rem;
 }
-
 
 .bannerContact{
     width: 100%;
