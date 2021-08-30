@@ -23,6 +23,9 @@
                     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                     <button class="btn btn-outline-success" type="submit">Buscar</button>
                 </form>
+            </nav>
+            <br><br>
+            <h1>Ponte en contacto</h1>
         </header>
         <div class="social">
             <ul>
@@ -34,76 +37,71 @@
                 
             </ul>
         </div>
-        <!--section class="content">
-            <h2>Ponte en contacto</h2>
-                <div class="rows">
-                    <form>
-                        <div class="center">
-                            <label for="nombres">Nombres: </label>
-                            <input type="text" placeholder="Ingrese nombre" required>
+        <section class="content">
+            <form class="row g-3">
+                <div class="col-md-6">
+                    <label class="form-label">Nombres</label>
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text" id="inputGroupPrepend"><i class="fas fa-user"></i></span>
                         </div>
-                        <br>
-                        <div class="center">
-                            <label for="apellidos">Apellidos: </label>
-                            <input type="text" placeholder="Ingrese apellidos" required>
-                        </div>
-                        <br>
-                        <div class="center">
-                            <label for="dni">DNI: </label>
-                            <input type="text" placeholder="Ingrese DNI" required>
-                        </div>
-                        <br>
-                        <div class="center">
-                            <label for="telefono">Teléfono: </label>
-                            <input type="text" placeholder="Ingrese teléfono" required>
-                        </div>
-                       <br> 
-                        <div class="center">
-                            <label for="correo">Correo: </label>
-                            <input type="text" placeholder="Ingrese su correo" required>
-                        </div>
-                        <br>
-                        <div class="center">
-                            <label for="direccion"> Dirección: </label>
-                            <input type="text" placeholder="Ingrese su dirección">
-                        </div>
-                        <br>
-                        <div class="center">
-                            <textarea name="comentario" placeholder="Déjanos tus comentarios"></textarea>
-                        </div>
-                       <br> 
-                        <div class="center">
-                            <button type="submit">Enviar</button>
-                        </div>
-                    </form>
+                        <input type="text" class="form-control" placeholder="Nombres" aria-describedby="First name">
+                    </div>
                 </div>
-        </section-->
-        <section class="container">
-            <div class="row mb-3">
-                <label for="colFormLabelSm" class="col-sm-2 col-form-label col-form-label-sm">Email</label>
-                <div class="col-sm-10">
-                  <input type="email" class="form-control form-control-sm" id="colFormLabelSm" placeholder="col-form-label-sm">
+
+                <div class="col-md-6">
+                    <label class="form-label">Apellidos</label>
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text" id="inputGroupPrepend"><i class="fas fa-user-edit"></i></span>
+                        </div>
+                        <input type="text" class="form-control" placeholder="Apellidos" aria-describedby="Last name">
+                    </div>
                 </div>
-              </div>
-              <div class="row mb-3">
-                <label for="colFormLabel" class="col-sm-2 col-form-label">Email</label>
-                <div class="col-sm-10">
-                  <input type="email" class="form-control" id="colFormLabel" placeholder="col-form-label">
+                                
+                <div class="col-12">
+                  <label for="inputEmail4" class="form-label">Email</label>
+                  <div class="input-group">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text" id="inputGroupPrepend"><i class="fas fa-at"></i></span>
+                    </div>
+                    <input type="email" class="form-control" id="validationCustomUsername" placeholder="E-mail" aria-describedby="inputGroupPrepend" required>
+                    <div class="invalid-feedback">
+                    </div>
                 </div>
-              </div>
-              <div class="row">
-                <label for="colFormLabelLg" class="col-sm-2 col-form-label col-form-label-lg">Email</label>
-                <div class="col-sm-10">
-                  <input type="email" class="form-control form-control-lg" id="colFormLabelLg" placeholder="col-form-label-lg">
+                
+                <div class="col-12">
+                  <label for="inputAddress2" class="form-label">Dirección</label>
+                  <div class="input-group">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text" id="inputGroupPrepend"><i class="fas fa-map-marker-alt"></i></span>
+                    </div>
+                    <input type="text" class="form-control" id="inputAddress2" placeholder="Dirección">
+                    </div>
                 </div>
-              </div>
+
+                <div class="col-12">
+                  <label for="inputCity" class="form-label">City</label>
+                  <div class="input-group">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text" id="inputGroupPrepend"><i class="fas fa-city"></i></span>
+                    </div>
+                    <input type="text" class="form-control" id="inputCity" placeholder="Ciudad">
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <label for="formGroupExampleInput" class="form-label">Déjanos tus comentarios</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput">
+                  </div>
+                
+                <div class="col-12">
+                  <button type="submit" class="btn btn-primary">Enviar</button>
+                </div>
+              </form>
         </section>
-        
+        <iframe class="content" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1978.9548520137932!2d-78.38108604213406!3d-7.251117137931341!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91b24186c7652f0f%3A0xde3d1bbb3860439f!2sIca%20620%2C%20Jes%C3%BAs%2006371!5e0!3m2!1ses!2spe!4v1630283431282!5m2!1ses!2spe" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 
-
-
-
-        
         <footer>
             <div class="content-foo">
                 <h5>E-mail</h5>
