@@ -165,7 +165,7 @@ body h1 {
     z-index: 100;
     align-items: flex-end;
 }
-#facebook{
+#facebook a{
     width: 55px;
     background:#3b5998 ;
     padding: 10px 20px;
@@ -174,58 +174,63 @@ body h1 {
     transition: all .5s;
     border-radius: 1rem 0 0 0;
 }
-.facebook a:hover{
+#facebook a:hover{
     padding: 10px 50px;
     background: slategrey;
+    border-radius: 1rem 0 0 1rem;
 }
-#instagram{
+#instagram a{
     width: 55px;
     background:#f09433 ;
     padding: 10px 20px;
     color: #fff;
     text-decoration:none;
-    transition: all .5s;
+    transition: all .5s ease;
 }
-.instagram a:hover{
+#instagram a:hover{
     padding: 10px 50px;
     background: slategrey;
+    border-radius: 1rem 0 0 1rem;
 }
-#github{
+#github a{
     width: 55px;
     background:#171515 ;
     padding: 10px 20px;
     color: #fff;
     text-decoration:none;
-    transition: all .5s;
+    transition: all .5s ease;
 }
-.github a:hover{
+#github a:hover{
     padding: 10px 50px;
     background: slategrey;
+    border-radius: 1rem 0 0 1rem;
 }
-#google{
+#google a{
     width: 55px;
     background:#d95232 ;
     padding: 10px 20px;
     color: #fff;
     text-decoration:none;
-    transition: all .5s;
+    transition: all .5s ease;
 }
-.google a:hover{
+#google a:hover{
     padding: 10px 50px;
     background: slategrey;
+    border-radius: 1rem 0 0 1rem;
 }
-#linkedin{
+#linkedin a{
     width: 55px;
     background:#0e76a8 ;
     padding: 10px 20px;
     color: #fff;
     text-decoration:none;
-    transition: all .5s;
+    transition: all .5s ease;
     border-radius: 0 0 0 1rem;
 }
-.linkedin a:hover{
-    padding: 10px 50px;
+#linkedin a:hover{
+    padding:10px 50px;
     background: slategrey;
+    border-radius: 1rem 0 0 1rem;
 }
 
 .bannerContact{
