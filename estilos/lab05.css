@@ -3,16 +3,33 @@
     padding: 0;
 }
 
-html{
-    min-height: 100%;
-    position: relative;
-}
-body{
+.container{
+    margin-top: 5%;
     background-color: lightblue;
-    width: 100%;
 }
 body h1{
     font-family:'Lucida Sans', sans-serif;
     text-align: center;
-    margin-top: 5%;
+}
+.caja1{
+    width:330px;
+}
+.caja2 {
+    width: 200px;
+    color: white;
+}
+
+.label1 {
+    background-color: #006effee;
+    color: white;
+    width: 250px;
+}
+
+.label2 {
+    background-color: #006effee;
+    color: white;
+    width: 200px;
+}
+.form-group1{
+margin-left: 100px;
 }
