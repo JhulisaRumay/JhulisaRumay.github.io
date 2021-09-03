@@ -31,5 +31,25 @@ body h1{
     width: 200px;
 }
 .form-group1{
-margin-left: 100px;
+margin-left: 50px;
+}
+.btn-naranja{
+    background-color: peru;
+    border-radius: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-decoration: blanchedalmond;
+    border-color: blanchedalmond;
+}
+.btn-rojo{
+    background-color: darkred;
+    border-radius: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-decoration: blanchedalmond;
+    border-color: blanchedalmond;
 }
