@@ -27,7 +27,8 @@ body h1{
 .label2 {
     background-color: #006effee;
     color: white;
-    width: 250px;
+    width: 200px;
+    padding: 3px;
 }
 .form-group1{
 margin-left: 50px;
