@@ -13,22 +13,36 @@
     <body>
     <section class="container">
         <h1>LAB 05: TALLER DE JAVASCRIPT</h1>
-        <div class="form-group1">
-            <div class="row mb-3">
-                <label for="colFormLabel" class="col-sm-2  label1">Apellidos y nombres</label>
-                <div class="col-sm-10">
-                  <input type="text" class="caja1" id="colFormLabel" placeholder="Ingrese apellidos y nombres">
-                </div>
+        <div class="row g-3">
+            <div class="col">
+                    <form action="">
+                        <div class="form-group1">
+                
+                            <div class="row mb-3">
+                                <label for="colFormLabel" class="col-md-4 label1">Apellidos y nombres</label>
+                                <div class="col-md-4">
+                                    <input type="text" class="caja1" id="colFormLabel" placeholder="Ingrese apellidos y nombres">
+                                </div>
+                            </div>
+                    
+                            <div class="row mb-3">
+                                <label for="colFormLabel" class="col-md-4 label2">Fecha de nacimiento</label>
+                                <div class="col-md-4">
+                                    <input type="date" class="caja1" id="colFormLabel" placeholder="Fecha de nacimiento">
+                                </div>
+                            </div>
+                        </div>
+                    </form>
             </div>
-    
-            <div class="row mb-3">
-                <label for="colFormLabel" class="col-sm-2 label2">Fecha de nacimiento</label>
-                <div class="col-sm-10">
-                  <input type="date" class="caja1" id="colFormLabel" placeholder="Fecha de nacimiento">
-                </div>
+            
+            
+            <!--PARA LOS BOTONES-->
+
+            <div class="col">
+                <button class="btn-naranja" id="changeextraer" onclick="extraer();">Extraer</button>
+                <button class="btn-rojo" id="changecolor" onclick="colorear();">Colorear</button>
             </div>
         </div>
-        
     </section>
        
 
