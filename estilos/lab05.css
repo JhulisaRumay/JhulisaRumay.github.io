@@ -14,7 +14,7 @@ body h1{
     width:330px;
 }
 .caja2 {
-    width: 200px;
+    width: 250px;
     color: white;
 }
 
@@ -27,8 +27,7 @@ body h1{
 .label2 {
     background-color: #006effee;
     color: white;
-    width: 200px;
-    padding: 3px;
+    width: 50px;
 }
 .form-group1{
 margin-left: 50px;
@@ -55,4 +54,15 @@ margin-left: 50px;
 }
 .form-group2{
     margin-left: 80px;
+}
+.form-group{
+    font-size: 15px;
+    margin-left: 0px;
+
+}
+.labRed {
+    background-color: darkred;
+    color: white;
+    width: 200px;
+    padding: 3px;
 }
