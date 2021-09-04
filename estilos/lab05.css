@@ -12,24 +12,30 @@ body h1{
 }
 .caja1{
     width:330px;
+    border-top: 1px solid red;
+    border-right: 1px solid red;
+    border-bottom: 1px solid red;
+    border-left: 1px solid red;
 }
 .caja2 {
     width: 250px;
     color: white;
+    border-top: 1px solid red;
+    border-right: 1px solid red;
+    border-bottom: 1px solid red;
+    border-left: 1px solid red;
 }
 
 .label1 {
     background-color: #006effee;
     color: white;
     width: 250px;
-    border-color: darkred;
 }
 
 .label2 {
     background-color: #006effee;
     color: white;
     width: 50px;
-    border-color: darkred;
 }
 .form-group1{
 margin-left: 50px;
@@ -67,5 +73,5 @@ margin-left: 50px;
     color: white;
     width: 200px;
     padding: 3px;
-    border-color: darkred;
+    
 }
