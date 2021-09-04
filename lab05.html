@@ -16,21 +16,21 @@
         <h1>LAB 05: TALLER DE JAVASCRIPT</h1>
         <br><br>
         <div class="row g-3">
-            <div class="col">
+            <div class="col" id="azul">
                     <form action="">
                         <div class="form-group1">
                 
                             <div class="row mb-3">
-                                <label for="colFormLabel" class="col-md-4 label1">Apellidos y Nombres:</label>
+                                <label class="col-md-4 label1" id="apn">Apellidos y Nombres:</label>
                                 <div class="col-md-4">
-                                    <input type="text" class="caja1" id="colFormLabel" placeholder="Ingrese apellidos y nombres">
+                                    <input type="text" class="caja1" id="apellidoNombre" placeholder="Ingrese apellidos y nombres">
                                 </div>
                             </div>
                     
                             <div class="row mb-3">
-                                <label for="colFormLabel" class="col-md-4 label1">Fecha de nacimiento:</label>
+                                <label id="fecNa" class="col-md-4 label1">Fecha de nacimiento:</label>
                                 <div class="col-md-4">
-                                    <input type="date" class="caja1" id="colFormLabel" placeholder="Fecha de nacimiento">
+                                    <input type="date" class="caja1" id="fechaNacimiento" placeholder="Fecha de nacimiento">
                                 </div>
                             </div>
                         </div>
@@ -39,8 +39,8 @@
             <!--PARA LOS BOTONES-->
 
             <div class="col">
-                <button class="btn-naranja" id="changeextraer" onclick="extraer();">Extraer</button>
-                <button class="btn-rojo" id="changecolor" onclick="colorear();">Colorear</button>
+                <button class="btn-naranja" id="extraerDatos" onclick="extraer();">Extraer</button>
+                <button class="btn-rojo" id="cambiarColor" onclick="colorear();">Colorear</button>
             </div>
         </div>
     </section>
@@ -54,23 +54,23 @@
                     <form action="">
                         <div class="form-group2">
                             <div class="row mb-3">
-                                <label for="colFormLabel" class="col-md-4 label2">Apellido Paterno:</label>
+                                <label id="apPate" class="col-md-4 label2">Apellido Paterno:</label>
                                 <div class="col-md-4">
-                                    <input type="text" class="caja2" id="colFormLabel" >
+                                    <input type="text" class="caja2" id="apellidoPaterno" >
                                 </div>
                             </div>
                     
                             <div class="row mb-3">
-                                <label for="colFormLabel" class="col-md-4 label2">Apellido Materno:</label>
+                                <label id="apMate" class="col-md-4 label2">Apellido Materno:</label>
                                 <div class="col-md-4">
-                                    <input type="text" class="caja2" id="colFormLabel">
+                                    <input type="text" class="caja2" id="apellidoMaterno">
                                 </div>
                             </div>
 
                             <div class="row mb-3">
-                                <label for="colFormLabel" class="col-md-4 label2">Nombres:</label>
+                                <label id="nomb" class="col-md-4 label2">Nombres:</label>
                                 <div class="col-md-4">
-                                    <input type="text" class="caja2" id="colFormLabel">
+                                    <input type="text" class="caja2" id="nombres">
                                 </div>
                             </div>
                         </div>
@@ -79,27 +79,27 @@
         
         <!--PARA SACAR LONGITUD Y MES -->
         
-            <div class="col">
+            <div class="col" id="rojo">
                     <form action="">
                         <div class="form-group">
                             <div class="row mb-3">
-                                <label class="col-md-4 labRed">Longitud del Apellido:</label>
+                                <label class="col-md-4 labRed" id="longApe">Longitud del Apellido:</label>
                                 <div class="col-md-4">
-                                    <input type="text" class="caja2" id="colFormLabel" >
+                                    <input type="text" class="caja2" id="longitudApellido" >
                                 </div>
                             </div>
                     
                            <div class="row mb-3">
-                                <label class="col-md-4 labRed">Edad:</label>
+                                <label class="col-md-4 labRed" id="edad">Edad:</label>
                                 <div class="col-md-4">
-                                    <input type="text" class="caja2" id="colFormLabel">
+                                    <input type="text" class="caja2" id="edad">
                                 </div>
                             </div>
 
                             <div class="row mb-3">
-                                <label class="col-md-4 labRed">Mes en letras:</label>
+                                <label class="col-md-4 labRed" id="mesLet">Mes en letras:</label>
                                 <div class="col-md-4">
-                                    <input type="text" class="caja2" id="colFormLabel">
+                                    <input type="text" class="caja2" id="mesLetras">
                                 </div>
                             </div>
                         </div>
