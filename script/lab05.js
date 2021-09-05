@@ -1,3 +1,5 @@
+//FUNCIÓN PARA COLOREAR
+
 let flag=1;
 
 function colorear(){
@@ -27,6 +29,8 @@ function colorear(){
         flag=1;
     }
 }
+//FUNCIÓN EXTRAER
+
 function extraer(){
     let nombre = document.getElementById('apellidoNombre');
     let partes = nombre.split(" ");
