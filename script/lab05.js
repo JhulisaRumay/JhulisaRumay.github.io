@@ -48,7 +48,7 @@ function extraer(){
 
   var fecha = new Date();
   fecha = document.getElementById('fechaNacimiento').value;
-  meses = ['enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio', 'julio', 'agosto', 'septiembre', 'octubre', 'noviembre', 'diciembre'];
+  meses = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Setiembre', 'Octubre', 'Noviembre', 'Diciembre'];
   var mes_name = fecha.split("-");
   var mes = parseInt(mes_name[1] - 1);
   document.getElementById("mesLetras").value = meses[mes];
