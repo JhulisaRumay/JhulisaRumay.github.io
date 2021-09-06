@@ -61,6 +61,7 @@ function extraer(){
   document.getElementById('longitudApellido').style.color = "black";
   document.getElementById('mesLetras').style.color = "black";
   document.getElementById('edad').style.color = "black";
+  
 }
 
 
