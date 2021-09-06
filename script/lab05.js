@@ -45,36 +45,36 @@ function extraer(){
    
   document.getElementById("longitudApellido").value = partes[0].length + partes[1].length;
 
-
-  var fecha = new Date();
+  var fecha=new Date();
   fecha = document.getElementById('fechaNacimiento').value;
-  meses = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Setiembre', 'Octubre', 'Noviembre', 'Diciembre'];
+  meses = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto','Setiembre', 'Octubre','Noviembre', 'Diciembre'];
   var mes_name = fecha.split("-");
-  var mes = parseInt(mes_name[1] - 1);
+  var mes= parseInt(mes_name[1] - 1);
   document.getElementById("mesLetras").value = meses[mes];
   document.getElementById("edad").value = "".concat(calcularEdad(fecha), " a\xF1os");
 
-
-  document.getElementById('apellidoPaterno').style.color = "black";
-  document.getElementById('apellidoMaterno').style.color = "black";
-  document.getElementById('nombres').style.color = "black";
-  document.getElementById('longitudApellido').style.color = "black";
-  document.getElementById('mesLetras').style.color = "black";
-  document.getElementById('edad').style.color = "black";
+  document.getElementById('apellidoPaterno').style.color="black";
+  document.getElementById('apellidoMaterno').style.color="black";
+  document.getElementById('nombres').style.color="black";
+  document.getElementById('longitudApellido').style.color="black";
+  document.getElementById('mesLetras').style.color="black";
+  document.getElementById('edad').style.color="black";
   
 }
 
-
-calcularEdad = function calcularEdad(fecha) {
+calcularEdad = function calcularEdad(fecha){
   var hoy = new Date();
   var cumpleanos = new Date(fecha);
-  var edad = hoy.getFullYear() - cumpleanos.getFullYear();
-  var m = hoy.getMonth() - cumpleanos.getMonth();
-  if (m < 0 || m === 0 && hoy.getDate() < cumpleanos.getDate()) {
-      edad--;
+  var edad = hoy-getFullYear() - cumpleanos.getFullYear();
+  var m= hoy.getMonth() - cumpleanos.getMonth();
+  if(m<0 || m== 0 && hoy.getDate() < cumpleanos.getDate()){
+    edad--;
   }
   return edad;
 }
+
+
+
 
 
 
