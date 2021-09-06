@@ -32,18 +32,48 @@ function colorear(){
 //FUNCIÓN EXTRAER
 
 function extraer(){
-    let nombre = document.getElementById('apellidoNombre');
+    let nombre = document.getElementById('apellidoNombre').value;
     let partes = nombre.split(" ");
 
-    document.getElementById('apellidoPaterno')=partes[0];
-    document.getElementById('apellidoMaterno')=partes[1];
+    document.getElementById('apellidoPaterno').value=partes[0];
+    document.getElementById('apellidoMaterno').value=partes[1];
    for(let i=0; i<partes.length; i++){
      if(i>= 2){
       document.getElementById("nombres") += partes[i] + " ";
      }
    }
-    document.getElementById('apellidoPaterno').style.color = "black";
-    document.getElementById('apellidoMaterno').style.color = "black";
-  document.getElementById('nombres').style.color = "black";
+   
+  document.getElementById("longitudApellido").value = partes[0].length + partes[1].length;
 
+
+  var fecha = new Date();
+  fecha = document.getElementById('fechaNacimiento').value;
+  meses = ['enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio', 'julio', 'agosto', 'septiembre', 'octubre', 'noviembre', 'diciembre'];
+  var mes_name = fecha.split("-");
+  var mes = parseInt(mes_name[1] - 1);
+  document.getElementById("mesLetras").value = meses[mes];
+  document.getElementById("edad").value = "".concat(calcularEdad(fecha), " a\xF1os");
+
+
+  document.getElementById('apellidoPaterno').style.color = "black";
+  document.getElementById('apellidoMaterno').style.color = "black";
+  document.getElementById('nombres').style.color = "black";
+  document.getElementById('longitudApellido').style.color = "black";
+  document.getElementById('mesLetras').style.color = "black";
+  document.getElementById('edad').style.color = "black";
 }
+
+
+calcularEdad = function calcularEdad(fecha) {
+  var hoy = new Date();
+  var cumpleanos = new Date(fecha);
+  var edad = hoy.getFullYear() - cumpleanos.getFullYear();
+  var m = hoy.getMonth() - cumpleanos.getMonth();
+  if (m < 0 || m === 0 && hoy.getDate() < cumpleanos.getDate()) {
+      edad--;
+  }
+  return edad;
+}
+
+
+
