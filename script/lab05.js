@@ -39,7 +39,7 @@ function extraer(){
     document.getElementById('apellidoMaterno').value=partes[1];
    for(let i=0; i<partes.length; i++){
      if(i>= 2){
-      document.getElementById("nombres") += partes[i] + " ";
+      document.getElementById("nombres").value += partes[i] + " ";
      }
    }
    
